@@ -1,0 +1,9 @@
+1
+HERPES
+1
+2
+ARTRITIS
+2
+3
+NovaBolest
+3,2

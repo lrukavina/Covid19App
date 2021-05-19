@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.PrikazOsobeController">
+   <children>
+      <Label layoutX="246.0" layoutY="33.0" text="Ime i prezime osobe" textAlignment="CENTER" />
+      <Label fx:id="imePrezimeOsobe" layoutX="285.0" layoutY="64.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="106.0" text="Starost osobe" textAlignment="CENTER" />
+      <Label fx:id="starostOsobe" layoutX="285.0" layoutY="137.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="183.0" text="Županija osobe" textAlignment="CENTER" />
+      <Label fx:id="zupanijaOsobe" layoutX="285.0" layoutY="215.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="259.0" text="Bolest osobe" textAlignment="CENTER" />
+      <Label fx:id="bolestosobe" layoutX="285.0" layoutY="288.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="261.0" layoutY="328.0" text="Kontakti osobe" textAlignment="CENTER" />
+      <Label fx:id="kontaktiOsobe" layoutX="285.0" layoutY="355.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
